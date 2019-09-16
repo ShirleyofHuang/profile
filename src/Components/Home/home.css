@@ -1,0 +1,13 @@
+.Home-pic{
+    width: 170px;
+    height : 200px;
+    border-radius: 50%; 
+    border: 1px solid #ddd;
+    padding: 5px; 
+    margin-top: 35px;
+}
+.Home-picture{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
