@@ -7,6 +7,7 @@ import {Slideshows} from './Components/Slideshow/slideshow';
 import Projects from './Components/Projects/projects';
 import python from './python.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectsBox from './Components/ProjectsBox/projectsbox';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
          <Home></Home>
       </div>
       <div className="Projects">
-        <Projects title="Python" summary="visual representation of tree-map" image={python}></Projects>
+        <ProjectsBox></ProjectsBox>
       </div>
 
       <div className="Bootstrap">
