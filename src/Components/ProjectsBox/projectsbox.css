@@ -1,6 +1,9 @@
-.ProjectsBox-thumbnail{
-    direction: flex;
-    flex: column;
-    height: 50px;
-    width: 50px;
+
+.ProjectsBox{
+    border-left: 1px, solid, black;
+    border-right: 1px, solid,black;
+    border-bottom: 1px, solid, black;
+    border-top: 1px, solid, black;
+
+
 }

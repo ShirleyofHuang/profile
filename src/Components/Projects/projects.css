@@ -11,6 +11,9 @@
 
 .Projects{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 .Projects-image{

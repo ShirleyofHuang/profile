@@ -29,7 +29,7 @@ function App() {
          <Home></Home>
       </div>
       <div className="Projects">
-        <ProjectsBox></ProjectsBox>
+        <Projects></Projects>
       </div>
 
       <div className="Bootstrap">
