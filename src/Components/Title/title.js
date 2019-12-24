@@ -1,5 +1,7 @@
 import React from 'react';
 import './title.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const sortByOptions = {
     'home': 'Home',
     'about' : 'About Me',
@@ -18,21 +20,31 @@ export class Title extends React.Component{
       }
       render(){
          return (
+        <div className="title">
+
+            
           <div className="SearchBar">
+                 <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
             <div className="SearchBar-sort-options">
                 <ul>
                 {this.renderSortByOptions()}
                 </ul>
             </div>
+            
             <div className="SearchBar-search">
             <div className="SearchBar-fields">
                 <input placeholder="Search Me" />
-                {/* <input placeholder="Where?" /> */}
             </div>
             <div className="SearchBar-submit">
                 <a href='https://twitter.com/bunnybuddhism'>{this.props.enter}</a>
             </div>
             </div>
+        </div>
         </div>
          )
       }

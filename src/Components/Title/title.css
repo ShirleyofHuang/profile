@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* background-image: url('./plant_background.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 8rem;
@@ -10,9 +9,9 @@
 
 .SearchBar-sort-options ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-bottom: 2.22rem;
-    color: #bba8a8;
+    color: #3a517a;
 }
 
 .SearchBar-sort-options li {
@@ -30,6 +29,8 @@
 .SearchBar-search {
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    
 }
 
 .SearchBar-fields input {
@@ -57,7 +58,7 @@
 .SearchBar-submit a {
     border-radius: 4px;
     padding: .5rem 1rem;
-    background-color: #cca353;
+    background-color: #3a517a;
     color: #ffffff;
     font-weight: 600;
     margin-top: -10px;
