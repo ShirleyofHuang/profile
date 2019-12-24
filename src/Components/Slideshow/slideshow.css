@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 300px;
+    height: 400px;
   }
   
   .each-slide span {
@@ -26,20 +26,24 @@
   }
   
   .each-fade .image-container {
-    width: 75%;
+    width: 100%;
     overflow: hidden;
-    height: 300px;
+    height: 350px;
   }
   
   .each-fade .image-container img {
     width: 100%;
+    
   }
   
   .each-fade h2 {
-    width: 25%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    background: #adceed;
+    top: 70%;
+    left: 5%;
+    background: white;
+    box-shadow: 0.4em 0 0 #fff, -0.4em 0 0 #fff;    
+
   }
