@@ -31,30 +31,34 @@ export class AboutMe extends React.Component{
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <h4>School</h4>
                     <p>
-                    lakjfldkjlajsdlkfjalskdfjlajflskdjflaksjflksjflkdj
-                    jdflakjdlfkjasdlfjaslfjsdlkfjsdlfjsdlfkjslfjdalkfja
-                    lajfladskjflsdjf
+                    I am currently a second year student studying at the University of Toronto
+                    as a Computer Science student. 
                     </p>
                     <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <h4>Skills</h4>
-                    <p>lakjfldkjlajsdlkfjalskdfjlajflskdjflaksjflksjflkdj
-                    jdflakjdlfkjasdlfjaslfjsdlkfjsdlfjsdlfkjslfjdalkfja
-                    lajfladskjflsdjf</p>
+                    <p>I have experience with Java, Python, C++, Verilog among many other languages.
+                        I have worked with designing UI as well as websites (like the one you are reading!
+
+                    </p>
                     <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <h4>Courses</h4>
                     <p>
-                    lakjfldkjlajsdlkfjalskdfjlajflskdjflaksjflksjflkdj
-                    jdflakjdlfkjasdlfjaslfjsdlkfjsdlfjsdlfkjslfjdalkfja
-                    lajfladskjflsdjf</p>
+                    I have successfully completed courses on Software Design as well as theoretical 
+                    parts of Computer Science. Currently enrolled in other courses. And have been successfully
+                    maintaining a GPA of 3.6.</p>
                     <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
+                </div>
+                <div class="container">
+                <p><a href="#" class = "btn btn-dark" role ="button">Get Resume</a></p>
 
                 </div>
+
                 </div>
 
             </div>

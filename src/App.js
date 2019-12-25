@@ -9,6 +9,7 @@ import python from './python.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectsBox from './Components/ProjectsBox/projectsbox';
 import {AboutMe} from './Components/AboutMe/aboutme';
+import {NavBar} from './Components/NavBar/navbar';
 
 
 function App() {
@@ -20,10 +21,13 @@ function App() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       />
-      <div className="App-title-bar">
+      <div>
+        <NavBar></NavBar>
+      </div>
+      {/* <div className="App-title-bar">
         <h1 className="App-title">i'm shirley</h1>
         <Title enter="Let's Go"></Title>
-      </div>
+      </div> */}
       <div className="App-slideshow">
         <Slideshows></Slideshows>
       </div>
