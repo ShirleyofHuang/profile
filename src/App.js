@@ -8,6 +8,8 @@ import Projects from './Components/Projects/projects';
 import python from './python.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectsBox from './Components/ProjectsBox/projectsbox';
+import {AboutMe} from './Components/AboutMe/aboutme';
+
 
 function App() {
   return (
@@ -27,6 +29,9 @@ function App() {
       </div>
       <div className="App-homepage">
          <Home></Home>
+      </div>
+      <div className="AboutMe">
+        <AboutMe></AboutMe>
       </div>
       <div className="Projects">
         <Projects></Projects>
