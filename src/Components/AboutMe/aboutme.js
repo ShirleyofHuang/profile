@@ -26,6 +26,18 @@ export class AboutMe extends React.Component{
                 <img class="img-circle" width="117px" height="117px" src={laptop} alt=""></img>
                 </div>
             
+            <div className="intro">
+                <p>Hello, <br></br>
+                    I'm an aspiring computer scientist with big dreams and big ambitions. <br></br>
+                    With a can-do attitude and a team player, I believe I am adaptable and can make 
+                    anything possible. <br></br>
+                    I love solving problems and puzzles, and mysteries intrigue me, so I'm up for a challenge
+                    anytime! <br></br>
+                    <br></br>
+
+                </p>
+            </div>
+            
             <div className="paragraph">
                 <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
