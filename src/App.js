@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectsBox from './Components/ProjectsBox/projectsbox';
 import {AboutMe} from './Components/AboutMe/aboutme';
 import {NavBar} from './Components/NavBar/navbar';
+import {ConnectWithMe} from './Components/ConnectWithMe/connectwithme';
 
 
 function App() {
@@ -31,14 +32,17 @@ function App() {
       <div className="App-slideshow">
         <Slideshows></Slideshows>
       </div>
-      <div className="App-homepage">
+      {/* <div className="App-homepage">
          <Home></Home>
-      </div>
+      </div> */}
       <div className="AboutMe">
         <AboutMe></AboutMe>
       </div>
       <div className="Projects">
         <Projects></Projects>
+      </div>
+      <div className="Connect">
+        <ConnectWithMe></ConnectWithMe>
       </div>
 
       <div className="Bootstrap">
