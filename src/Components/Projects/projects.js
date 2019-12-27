@@ -3,6 +3,7 @@ import './projects.css';
 import ProjectsBox from '../ProjectsBox/projectsbox';
 import python from '../ProjectsBox/pythontreemap.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProjectsBoxtwo from '../ProjectsBox/projectsboxtwo';
 
 
 
@@ -19,9 +20,14 @@ export class Projects extends React.Component{
             />
             <div class="containter">
                 <div class="column">
-                    <div class="jumbotron">
+                    {/* <div class="jumbotron">
                         <p>Projects: either made outside of school or as a personal project.</p>
-                    </div>
+                    </div> */}
+                    <div className="title">
+              <h2>Projects</h2>
+              <hr></hr>
+            </div>
+
                 {/* <ProjectsBox image={python} title="Python TreeMap" description="Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it."></ProjectsBox>
                 <ProjectsBox image={python} title="Java Android Game" description="Created in a group of 6, we made an android game using Android Studio as well as SQLite. All work was done with GitHub while implementing
@@ -30,9 +36,20 @@ export class Projects extends React.Component{
                 game required designing a DFA and implementing all other modules accordingly. Designing circuits was the most challenging part."></ProjectsBox> */}
                 <ProjectsBox></ProjectsBox>
                 </div>
+                <div class="container-fluid padding">
+                    <div class="row welcome text-center">
+                        <div class="col-12">
+                            <h1 class="display-4">Projects</h1>
+                        </div>
+                        <hr class="my-4"></hr>
+                    </div>
+                    <ProjectsBoxtwo></ProjectsBoxtwo>
+                </div>
             </div>
+            
 
-         </div>
+           
+            </div>
         )
 
     }

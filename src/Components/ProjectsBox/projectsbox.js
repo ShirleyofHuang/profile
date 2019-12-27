@@ -17,36 +17,58 @@ export class ProjectsBox extends React.Component{
             />
                 <div class ="container">
                     <div class ="row">
-                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
                                     <h3>Python Tree Map</h3>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
-                                    <p><a href="#" class = "btn btn-primary" role ="button">Read More</a></p>
+                    <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
                                     <h3>Verilog Simon Says</h3>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
-                                    <p><a href="#" class = "btn btn-primary" role ="button">Read More</a></p>
+                                    <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class = "thumbnail">
+                                <img src={python} alt="..." height="75" width = "75"></img>
+                                <div class = "caption">
+                                    <h3>Automated Fan</h3>
+                                    <p>Using python, a visual representation of a tree was made in order 
+        to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
+                                    <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <div class = "thumbnail">
+                                <img src={python} alt="..." height="75" width = "75"></img>
+                                <div class = "caption">
+                                    <h3>Study Penguin</h3>
+                                    <p>Using python, a visual representation of a tree was made in order 
+        to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
+                                    <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
                                     <h3>Java Android Game</h3>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
-                                    <p><a href="#" class = "btn btn-primary" role ="button">Read More</a></p>
+                                    <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
                                 </div>
                             </div>
                     </div>
