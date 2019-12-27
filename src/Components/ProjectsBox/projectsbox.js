@@ -21,7 +21,7 @@ export class ProjectsBox extends React.Component{
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
-                                    <h3>Python Tree Map</h3>
+                                    <h4>Python Tree Map</h4>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
                     <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
@@ -32,7 +32,7 @@ export class ProjectsBox extends React.Component{
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
-                                    <h3>Verilog Simon Says</h3>
+                                    <h4>Verilog Simon Says</h4>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
                                     <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
@@ -43,7 +43,7 @@ export class ProjectsBox extends React.Component{
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
-                                    <h3>Automated Fan</h3>
+                                    <h4>Automated Fan</h4>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
                                     <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
@@ -54,7 +54,7 @@ export class ProjectsBox extends React.Component{
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
-                                    <h3>Study Penguin</h3>
+                                    <h4>Study Penguin</h4>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
                                     <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>
@@ -65,7 +65,7 @@ export class ProjectsBox extends React.Component{
                             <div class = "thumbnail">
                                 <img src={python} alt="..." height="75" width = "75"></img>
                                 <div class = "caption">
-                                    <h3>Java Android Game</h3>
+                                    <h4>Java Android Game</h4>
                                     <p>Using python, a visual representation of a tree was made in order 
         to see the different levels there were to a folder in a computer. Recursion was mainly used to implement it.</p>
                                     <p><a href="#" class="btn btn-outline-secondary">See Project</a></p>

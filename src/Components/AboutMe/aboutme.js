@@ -37,7 +37,8 @@ export class AboutMe extends React.Component{
             <div class="container">
                 <div class="column">
             <div className="title">
-              <h2>Who Is Shirley</h2>
+              <h2>Who Is Shirley?</h2>
+              <hr></hr>
             </div>
             
             <div className="profilepic">
@@ -64,12 +65,12 @@ export class AboutMe extends React.Component{
                     I am currently a second year student studying at the University of Toronto
                     as a Computer Science student. 
                     </p>
-                    <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
+                    {/* <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p> */}
                     <div>
-                        <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
-                        Toggle
+                        <Button color="secondary" id="toggler1" style={{ marginBottom: '1rem' }}>
+                        Learn More
                         </Button>
-                        <UncontrolledCollapse toggler="#toggler">
+                        <UncontrolledCollapse toggler="#toggler1">
                         <Card>
                             <CardBody>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
@@ -86,7 +87,21 @@ export class AboutMe extends React.Component{
                         I have worked with designing UI as well as websites (like the one you are reading!
 
                     </p>
-                    <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
+                    {/* <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p> */}
+                    <div>
+                        <Button color="secondary" id="toggler2" style={{ marginBottom: '1rem' }}>
+                        Learn More
+                        </Button>
+                        <UncontrolledCollapse toggler="#toggler2">
+                        <Card>
+                            <CardBody>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
+                            similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed
+                            dignissimos esse fuga! Minus, alias.
+                            </CardBody>
+                        </Card>
+                        </UncontrolledCollapse>
+                    </div>
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,10 +110,27 @@ export class AboutMe extends React.Component{
                     I have successfully completed courses on Software Design as well as theoretical 
                     parts of Computer Science. Currently enrolled in other courses. And have been successfully
                     maintaining a GPA of 3.6.</p>
-                    <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p>
+                    {/* <p><a href="#" class = "btn btn-dark" role ="button">Learn More</a></p> */}
+                    <div>
+                        <Button color="secondary" id="toggler3" style={{ marginBottom: '1rem' }}>
+                        Learn More
+                        </Button>
+                        <UncontrolledCollapse toggler="#toggler3">
+                        <Card>
+                            <CardBody>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
+                            similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed
+                            dignissimos esse fuga! Minus, alias.
+                            </CardBody>
+                        </Card>
+                        </UncontrolledCollapse>
+                    </div>
                 </div>
                 <div class="container">
-                <p><a href="#" class = "btn btn-dark" role ="button">Get Resume</a></p>
+                <p>
+                    <br></br>
+                    <a href="#" class = "btn btn-dark" role ="button">Get Resume</a></p>
+                
 
                 </div>
 
