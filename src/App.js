@@ -11,6 +11,7 @@ import ProjectsBox from './Components/ProjectsBox/projectsbox';
 import {AboutMe} from './Components/AboutMe/aboutme';
 import {NavBar} from './Components/NavBar/navbar';
 import {ConnectWithMe} from './Components/ConnectWithMe/connectwithme';
+import {NewNavBar} from './Components/NewNavBar/newnavbar';
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         crossorigin="anonymous"
       />
       <div>
+        <NewNavBar></NewNavBar>
+      </div>
+      <div>
+
         <NavBar></NavBar>
       </div>
       {/* <div className="App-title-bar">

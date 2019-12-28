@@ -95,9 +95,29 @@ export class AboutMe extends React.Component{
                         <UncontrolledCollapse toggler="#toggler2">
                         <Card>
                             <CardBody>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
-                            similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed
-                            dignissimos esse fuga! Minus, alias.
+                                <h6>Computer Languages</h6>
+                                <ul className="skills-list">
+                                    <li><b>Java:</b> Worked extensively with Java to create Android Apps and is very familiar 
+                                        with the language as a result.
+                                    </li>
+                                    <li><b>Python: </b>First language learnt and have worked with it fully in first year 
+                                        to complete school assignments.
+                                    </li>
+                                    <li><b>Verilog: </b>Learnt during school and used it to create a game. Have worked with it 
+                                        to create circuits as well that are able to be used on a FPGA board.
+                                    </li>
+                                    <li><b>React: </b>Used React and Bootstrap to create a interactive website as a personal side project</li>
+                                    <li><b>C++: </b>Worked with C++ to create simple widget calculators and notepads, as well as worked with documenting
+                                        C++ code during internship.</li>
+                                </ul>
+                                
+                                <h6>Others</h6>
+                                <ul className="skills-list">
+                                    <li>Trilingual in English, French, and Mandarin</li>
+                                    <li>Fast learner and able to work under a fast paced environment and high stress environments</li>
+                                    <li>Mandarin</li>
+                                </ul>
+                                To see how read more, go check out my projecs!
                             </CardBody>
                         </Card>
                         </UncontrolledCollapse>
@@ -117,9 +137,17 @@ export class AboutMe extends React.Component{
                         <UncontrolledCollapse toggler="#toggler3">
                         <Card>
                             <CardBody>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
-                            similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed
-                            dignissimos esse fuga! Minus, alias.
+                                <h6>Completed Courses</h6>
+                                <ul className="courses-list">
+                                    <li><b>Software Design</b></li>
+                                    <li><b>Computer Organization</b></li>
+                                    <li><b>Introduction to Theory of Computation</b></li>
+                                </ul>
+                                <h6>Courses in Progress</h6>
+                                <ul className="courses-list">
+                                    <li><b>Software Tools and Systems Programming</b></li>
+                                    <li><b>Data Structures and Analysis</b></li>
+                                </ul>
                             </CardBody>
                         </Card>
                         </UncontrolledCollapse>
