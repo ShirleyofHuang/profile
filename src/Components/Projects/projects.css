@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: center;
     
-
 }
 .Projects-image{
     direction: flex;
@@ -30,4 +29,10 @@
 
 .Projects-quick-summary{
     font-size: white;
+}
+
+hr {
+    width:70%;
+    margin:0 auto;
+    height: 12px;
 }
