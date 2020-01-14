@@ -12,7 +12,8 @@ import {AboutMe} from './Components/AboutMe/aboutme';
 import {NavBar} from './Components/NavBar/navbar';
 import {ConnectWithMe} from './Components/ConnectWithMe/connectwithme';
 import {NewNavBar} from './Components/NewNavBar/newnavbar';
-
+import { Parallax, Background } from 'react-parallax';
+import {ParalaxPics} from './Components/ParalaxPics/paralaxpics'
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       />
       <div>
         <NewNavBar></NewNavBar>
+      </div>
+      <div>
+        <ParalaxPics></ParalaxPics>
       </div>
       <div>
 
