@@ -1,9 +1,9 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import laptop from '../ParalaxPics/laptopcafe.jpg';
-import './paralaxpic.css';
+import './paralaxpicsproject.css';
 
-export class ParalaxPics extends React.Component{
+export class ParalaxPicsProject extends React.Component{
 
     render(){
         return (
@@ -16,6 +16,7 @@ export class ParalaxPics extends React.Component{
                 crossorigin="anonymous"
             />
             <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'></link>
+            
             </div>
 
             <div>
@@ -23,8 +24,15 @@ export class ParalaxPics extends React.Component{
                 <main class="wrapper">
                 <section class="section parallax bg1">
                     <div class="boxed">
-                    <h1>WELCOME,</h1>
-                    <h3 class="introduction">i'm shirley huang.</h3>
+                    <h2>Other than a CS student, I'm also a...</h2> <br></br>
+                    <h4>
+                        <ul className="skills-list">
+                            <li>Traveller</li>
+                            <li>Foodie</li>
+                            <li>Amateur Squash Player</li>
+                            <li>Proud dog owner</li>
+                                </ul>
+                    </h4>
                     </div>
                 </section>
                 {/* <section class="section static">

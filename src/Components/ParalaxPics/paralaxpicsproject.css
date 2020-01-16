@@ -5,6 +5,7 @@ body,html{margin:0;padding:0;}
   src: url(http://fonts.googleapis.com/css?family=Lato:400,700)
 }
 
+
 .wrapper {
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
@@ -82,23 +83,14 @@ body,html{margin:0;padding:0;}
     background-size: cover;
   }
 
-h1 {
+h5 {
     display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   /* text-shadow: 0 0 5px #000; */
-  /* font-family: url('http://fonts.googleapis.com/css?family=Lato:400,700');  */
-  font-family:'Lato', sans-serif;
-  letter-spacing: 5px;
-}
-
-.boxed{
-    /* border: 1px solid white; */
-    fill:#777;
-}
-
-.introduction{
-  font-family: 'Amatic SC', cursive;
-  font-size: 40px;
+  font-size: medium;
+  font-family: 'Lato', sans-serif;
+  /* src: url(http://fonts.googleapis.com/css?family=Lato:400,700); */
+  /* <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'></link> */
 }

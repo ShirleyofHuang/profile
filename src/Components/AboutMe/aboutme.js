@@ -37,7 +37,7 @@ export class AboutMe extends React.Component{
             <div class="container">
                 <div class="column">
             <div className="title">
-              <h2>Who Is Shirley?</h2>
+              <h2 class="thisisme">Who Is Shirley?</h2>
               <hr></hr>
             </div>
             

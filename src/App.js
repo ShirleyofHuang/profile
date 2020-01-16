@@ -13,7 +13,9 @@ import {NavBar} from './Components/NavBar/navbar';
 import {ConnectWithMe} from './Components/ConnectWithMe/connectwithme';
 import {NewNavBar} from './Components/NewNavBar/newnavbar';
 import { Parallax, Background } from 'react-parallax';
-import {ParalaxPics} from './Components/ParalaxPics/paralaxpics'
+import {ParalaxPics} from './Components/ParalaxPics/paralaxpics';
+import {ParalaxPicsProject} from './Components/ParalaxPics/paralaxpicproject';
+import {Travel} from './Components/Travel/travel';
 
 function App() {
   return (
@@ -25,38 +27,37 @@ function App() {
         crossorigin="anonymous"
       />
       <div>
-        <NewNavBar></NewNavBar>
+        {/* <NewNavBar></NewNavBar> */}
       </div>
       <div>
         <ParalaxPics></ParalaxPics>
       </div>
-      <div>
+      {/* <div> */}
 
         <NavBar></NavBar>
-      </div>
-      {/* <div className="App-title-bar">
-        <h1 className="App-title">i'm shirley</h1>
-        <Title enter="Let's Go"></Title>
-      </div> */}
-      <div className="App-slideshow">
-        <Slideshows></Slideshows>
-      </div>
-      {/* <div className="App-homepage">
-         <Home></Home>
-      </div> */}
-      <div className="AboutMe">
-        <AboutMe></AboutMe>
-      </div>
-      <div className="Projects">
-        <Projects></Projects>
-      </div>
-      <div className="Connect">
-        <ConnectWithMe></ConnectWithMe>
-      </div>
+  
+            <div className="App-slideshow">
+              <Slideshows></Slideshows>
+            </div>
 
-      <div className="Bootstrap">
+            {/* <div className="AboutMe"> */}
+              <AboutMe></AboutMe>
+            {/* </div> */}
+            <ParalaxPicsProject></ParalaxPicsProject>
+            {/* <div className="Projects"> */}
+              <Projects></Projects>
 
-      </div>
+            {/* </div> */}
+            <Travel></Travel>
+            {/* <div className="Connect"> */}
+              <ConnectWithMe></ConnectWithMe>
+            {/* </div> */}
+
+            {/* <div className="Bootstrap"> */}
+
+            {/* </div> */}
+      
+      {/* </div> */}
     
     </div>
   );

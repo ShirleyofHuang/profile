@@ -1,7 +1,7 @@
 .slide-container {
     width: 100%;
     margin: auto;
-    height: 50px; 
+    height: 300px; 
     margin-bottom: 15rem;
     }
   
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 400px;
+    height: 500px;
   }
   
   .each-slide span {
@@ -30,7 +30,7 @@
   .each-fade .image-container {
     width: 100%;
     overflow: hidden;
-    height: 350px;
+    height: 600px;
   }
   
   .each-fade .image-container img {

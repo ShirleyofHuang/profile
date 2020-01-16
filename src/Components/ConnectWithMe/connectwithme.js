@@ -41,13 +41,13 @@ export class ConnectWithMe extends React.Component{
                     <div class="container">
                         <div class="column">
                             <div className="title">
-                                <h2>Connect With Me</h2>
+                                <h2 class="connect">CONNECT WITH ME</h2>
                                 <hr></hr>
                             </div>
                             <div class="column">
-                            <SocialIcon url="https://linkedin.com/in/yunqing-shirley-huang" network="linkedin" label="LinkedIn"></SocialIcon>
-                            <SocialIcon url="https://github.com/ShirleyofHuang" network="github" label="GitHub"></SocialIcon>
-                            <SocialIcon url="#" network="email" label="Email"></SocialIcon>
+                            <SocialIcon class="icons" url="https://linkedin.com/in/yunqing-shirley-huang" network="linkedin" label="LinkedIn"></SocialIcon>
+                            <SocialIcon class="icons" url="https://github.com/ShirleyofHuang" network="github" label="GitHub"></SocialIcon>
+                            <SocialIcon class="icons" url="#" network="email" label="Email"></SocialIcon>
 
                             </div>
                             </div>

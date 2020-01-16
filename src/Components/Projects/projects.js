@@ -24,7 +24,9 @@ export class Projects extends React.Component{
                         <p>Projects: either made outside of school or as a personal project.</p>
                     </div> */}
                     <div className="title">
-              <h2>Projects</h2>
+                        <br></br>
+                        <br></br>
+              <h2 class="myprojects">HERE'S SOME OF WHAT I'VE DONE</h2>
               <hr></hr>
             </div>
 
@@ -41,9 +43,9 @@ export class Projects extends React.Component{
                         <div class="col-12">
                             <h1 class="display-4">Projects</h1>
                         </div>
-                        <hr class="my-4"></hr>
+                        
                     </div>
-                    <ProjectsBoxtwo></ProjectsBoxtwo>
+                    {/* <ProjectsBoxtwo></ProjectsBoxtwo> */}
                 </div>
             </div>
             

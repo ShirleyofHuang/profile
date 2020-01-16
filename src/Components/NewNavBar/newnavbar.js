@@ -28,7 +28,7 @@ export class NewNavBar extends React.Component{
             />
             
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar color="light" light expand="md" fixed="top">
                     <NavbarBrand href="/">reactstrap</NavbarBrand>
                     {/* <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar> */}
