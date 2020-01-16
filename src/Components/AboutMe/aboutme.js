@@ -2,6 +2,7 @@ import React from 'react';
 import './aboutme.css';
 import laptop from '../AboutMe/laptopcafe.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import me from './mepic.jpg';
 import {
     Collapse,
     Navbar,
@@ -42,7 +43,7 @@ export class AboutMe extends React.Component{
             </div>
             
             <div className="profilepic">
-                <img class="img-circle" width="117px" height="117px" src={laptop} alt=""></img>
+                <img class="img-circle" width="117px" height="117px" src={me} alt=""></img>
                 </div>
             
             <div className="intro">

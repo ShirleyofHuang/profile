@@ -45,6 +45,7 @@ export class ConnectWithMe extends React.Component{
                                 <hr></hr>
                             </div>
                             <div class="column">
+                            
                             <SocialIcon class="icons" url="https://linkedin.com/in/yunqing-shirley-huang" network="linkedin" label="LinkedIn"></SocialIcon>
                             <SocialIcon class="icons" url="https://github.com/ShirleyofHuang" network="github" label="GitHub"></SocialIcon>
                             <SocialIcon class="icons" url="#" network="email" label="Email"></SocialIcon>

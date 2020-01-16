@@ -11,13 +11,21 @@
    font-family: 'Amatic SC', cursive;
     color: white;    
     font-size: 50px;
+    font-size: 25px;
 }
 
 .Travel {
-    background-color:lightgray;
+    /* background-color:lightgray; */
 }
 
 .travelling {
     font-family: 'Lato', sans-serif;
     letter-spacing: 5px;
+    color: white;
+}
+
+.places {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    color: white;
 }

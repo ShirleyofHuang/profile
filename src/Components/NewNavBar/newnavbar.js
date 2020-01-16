@@ -27,19 +27,25 @@ export class NewNavBar extends React.Component{
                 crossorigin="anonymous"
             />
             
-            <div>
-                <Navbar color="light" light expand="md" fixed="top">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
+            
+                <Navbar color="light" light expand="md" sticky="top" position="fixed">
+                    <NavbarBrand href="/">SHIRLEY</NavbarBrand>
                     {/* <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar> */}
-                    <Nav className="mr-auto" navbar>
+                    <Nav className="mr-auto" class="navbar" navbar>
                         <NavItem>
-                        <NavLink href="/components/">Components</NavLink>
+                        <NavLink href="/components/">ABOUT ME</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                        <NavLink href="https://github.com/ShirleyOfHuang">GITHUB</NavLink>
                         </NavItem>
-                        <UncontrolledDropdown nav inNavbar>
+                        <NavItem>
+                        <NavLink href="/projects/">PROJECTS</NavLink>
+                        </NavItem>
+                        <NavItem>
+                        <NavLink href="travels">TRAVEL</NavLink>
+                        </NavItem>
+                        {/* <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret>
                             Options
                         </DropdownToggle>
@@ -55,13 +61,13 @@ export class NewNavBar extends React.Component{
                             Reset
                             </DropdownItem>
                         </DropdownMenu>
-                        </UncontrolledDropdown>
+                        </UncontrolledDropdown> */}
                     </Nav>
-                    <NavbarText>Simple Text</NavbarText>
+                    <NavbarText>get to know me</NavbarText>
                     {/* </Collapse> */}
                 </Navbar>
                 </div>
-                </div>
+               
               
         )
     }

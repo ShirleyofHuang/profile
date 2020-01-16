@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from 'react-photo-gallery';
 import japan from './kyotojapan.jpg';
 import china from './tianjinchina.jpg'
+import collage from './collage.jpg';
   
 export class Travel extends React.Component{
 
@@ -20,26 +21,69 @@ export class Travel extends React.Component{
             />
             <br></br>
             <br></br>
-            <h2 class="travelling">Travelling is a part of me</h2>
+            {/* <h2 class="travelling">travelling is a part of me</h2>
+            <h3 class ="places">take a look at where I've been</h3>
             <hr></hr>
-            <h5 class="quote">"JOBS FILL THE POCKET, BUT ADVENTURE FILLS THE SOUL "</h5>
+            <h5 class="quote">"JOBS FILL THE POCKET, BUT ADVENTURE FILLS THE SOUL "</h5> */}
 
             <div class="pictures">
-              <div class="container">
-              <div class ="column">
+              {/* <div class="container">
+              <div class ="column"> */}
                 
-                <img src={japan} width="20%" height="20%"></img>
-                <img src={china} width="20%" height="20%"></img>
-                <img src={china} width="20%" height="20%"></img>
-                <img src={china} width="20%" height="20%"></img>
+                {/* <img src={collage} width='60%' height='50%'></img>
+{/*              */}
+<div class="container">
+<div class="row">
 
+  <div class="col-md-12">
 
-               
+    {/* <div id="mdb-lightbox-ui"></div>
+
+    <div class="mdb-lightbox"> */}
+    <div class="row">
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(148).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+      <figure class="col-md-3">
+        <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(149).jpg" data-size="1600x1067">
+          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(149).jpg" class="img-fluid" />
+        </a>
+      </figure>
+
+    </div>
+
+  </div>
+</div>
             </div>
-            </div>
-            </div>
-            </div>
-            
+         </div>
+         </div>
                
 
         )

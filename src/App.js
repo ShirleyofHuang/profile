@@ -16,7 +16,8 @@ import { Parallax, Background } from 'react-parallax';
 import {ParalaxPics} from './Components/ParalaxPics/paralaxpics';
 import {ParalaxPicsProject} from './Components/ParalaxPics/paralaxpicproject';
 import {Travel} from './Components/Travel/travel';
-
+import {ParallaxDog} from './Components/ParalaxPics/parallaxdog';
+import {History} from './Components/History/history';
 function App() {
   return (
     <div className="App">
@@ -26,19 +27,10 @@ function App() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       />
-      <div>
-        {/* <NewNavBar></NewNavBar> */}
-      </div>
-      <div>
+      
         <ParalaxPics></ParalaxPics>
-      </div>
-      {/* <div> */}
-
-        <NavBar></NavBar>
-  
-            <div className="App-slideshow">
-              <Slideshows></Slideshows>
-            </div>
+        {/* <NavBar></NavBar> */}
+        <NewNavBar/>
 
             {/* <div className="AboutMe"> */}
               <AboutMe></AboutMe>
@@ -47,10 +39,20 @@ function App() {
             {/* <div className="Projects"> */}
               <Projects></Projects>
 
+              <ParallaxDog></ParallaxDog>
+
             {/* </div> */}
             <Travel></Travel>
+
+            <History></History>
+
+            {/* <ParallaxDog></ParallaxDog> */}
+
+            
             {/* <div className="Connect"> */}
               <ConnectWithMe></ConnectWithMe>
+
+              
             {/* </div> */}
 
             {/* <div className="Bootstrap"> */}
