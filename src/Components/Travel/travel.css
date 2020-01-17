@@ -29,3 +29,8 @@
     letter-spacing: 5px;
     color: white;
 }
+
+img:hover {
+    opacity: 0.5;
+
+}

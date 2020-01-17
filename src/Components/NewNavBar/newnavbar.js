@@ -14,12 +14,28 @@ import {
   NavbarText
 } from 'reactstrap';
 
+import './newnavbar.css';
+
 
 export class NewNavBar extends React.Component{
+    componentDidMount(){
+        window.addEventListener('scroll', ()=>{
+            const isTop = window.scrollY > 100;
+            const nav = document.getElementById('nav');
+            if (isTop){
+                nav.classList.add('scrolled');
+            }else{
+                nav.classList.remove('scrolled');
+            }
+        });
+    }
 
+    componentWillUnmount(){
+        window.removeEventListener('scroll');
+    }
     render(){
         return (
-            <div className="newnavbar">
+            <div className="newnavbar" >
                  <link
                 rel="stylesheet"
                 href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -27,45 +43,27 @@ export class NewNavBar extends React.Component{
                 crossorigin="anonymous"
             />
             
-            
-                <Navbar color="light" light expand="md" sticky="top" position="fixed">
-                    <NavbarBrand href="/">SHIRLEY</NavbarBrand>
-                    {/* <NavbarToggler onClick={toggle} />
-                    <Collapse isOpen={isOpen} navbar> */}
+            <div className="nav" class="nav">
+                 <Navbar expand="md" fixed="top" position="fixed" id="nav" class="nav">
+                    <NavbarBrand class="navbarcontent" href="/"><h4 class="navbarcontent">SHIRLEY</h4></NavbarBrand>
                     <Nav className="mr-auto" class="navbar" navbar>
                         <NavItem>
-                        <NavLink href="/components/">ABOUT ME</NavLink>
+                        <NavLink class="navbarcontent"href="/components/"><h5 class="navbarcontent">ABOUT ME</h5></NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="https://github.com/ShirleyOfHuang">GITHUB</NavLink>
+                        <NavLink class="navbarcontent"href="https://github.com/ShirleyOfHuang"><h5 class="navbarcontent">GITHUB</h5></NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="/projects/">PROJECTS</NavLink>
+                        <NavLink class="navbarcontent"href="/projects/"><h5 class="navbarcontent">PROJECTS</h5></NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="travels">TRAVEL</NavLink>
+                        <NavLink class="navbarcontent"href="travels"><h5 class="navbarcontent">TRAVEL</h5></NavLink>
                         </NavItem>
-                        {/* <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                            Options
-                        </DropdownToggle>
-                        <DropdownMenu right>
-                            <DropdownItem>
-                            Option 1
-                            </DropdownItem>
-                            <DropdownItem>
-                            Option 2
-                            </DropdownItem>
-                            <DropdownItem divider />
-                            <DropdownItem>
-                            Reset
-                            </DropdownItem>
-                        </DropdownMenu>
-                        </UncontrolledDropdown> */}
                     </Nav>
                     <NavbarText>get to know me</NavbarText>
-                    {/* </Collapse> */}
+                   
                 </Navbar>
+                </div>
                 </div>
                
               
