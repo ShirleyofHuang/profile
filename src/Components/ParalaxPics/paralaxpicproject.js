@@ -29,7 +29,7 @@ export class ParalaxPicsProject extends React.Component{
                         <ul className="skills-list">
                             <li>Traveller</li>
                             <li>Foodie</li>
-                            <li>Amateur Squash Player</li>
+                            <li>Newbie (but Trying) Squash Player</li>
                             <li>Proud dog owner</li>
                                 </ul>
                     </h4>

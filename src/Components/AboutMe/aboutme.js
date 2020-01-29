@@ -38,12 +38,14 @@ export class AboutMe extends React.Component{
             <div class="container">
                 <div class="column">
             <div className="title">
-              <h2 class="thisisme">Who Is Shirley?</h2>
+                <br></br>
+                <br></br>
+              <h2 class="thisisme">WHO AM I?</h2>
               <hr></hr>
             </div>
             
             <div className="profilepic">
-                <img class="img-circle" width="117px" height="117px" src={me} alt=""></img>
+                <img class="img-circle" width="117px" height="117px" src={laptop} alt=""></img>
                 </div>
             
             <div className="intro">
@@ -51,8 +53,7 @@ export class AboutMe extends React.Component{
                     I'm an aspiring <b>computer scientist </b>with big dreams and big ambitions. <br></br>
                     With a can-do attitude and a team player, I believe I am adaptable and can make 
                     anything possible. <br></br>
-                    I love solving problems and puzzles, and mysteries intrigue me, so I'm up for a challenge
-                    anytime! <br></br>
+                    <br></br>
                     <br></br>
 
                 </p>
@@ -74,9 +75,20 @@ export class AboutMe extends React.Component{
                         <UncontrolledCollapse toggler="#toggler1">
                         <Card>
                             <CardBody>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magni, voluptas debitis
-                            similique porro a molestias consequuntur earum odio officiis natus, amet hic, iste sed
-                            dignissimos esse fuga! Minus, alias.
+                            <ul class="experiences">
+                                <li>Last summer, I interned at ChengHang Turbine Technologies where I learnt to use C++ with Qt
+                                    and worked in coordination with a team of engineers to create an UI for controlling turbine 
+                                    sensors and to see the data collected.
+                                </li>
+                                <li>Over 10 years, I have travlled to over 10 countries either with my parents, friends, or alone.
+                                    Through these experiences, I've realized the importance of learning about other cultures and
+                                    education oneself. I believe that it is through travelling we can overcome discrimination and fears.
+                                </li>
+                                <li>I love boardgames and have joined the TableTop Boardgame Club at my university. There, I have found
+                                    a group of people that share the same interest as I and every week we get together to save the world 
+                                    from a <a href="https://boardgamegeek.com/boardgame/30549/pandemic">pandemic!</a>
+                                </li>
+                            </ul>
                             </CardBody>
                         </Card>
                         </UncontrolledCollapse>
@@ -157,7 +169,7 @@ export class AboutMe extends React.Component{
                 <div class="container">
                 <p>
                     <br></br>
-                    <a href="#" class = "btn btn-dark" role ="button">Get Resume</a></p>
+                    <a href="https://drive.google.com/file/d/1PqlIhT101QWu4l8R4-qKu1FZ-LP8_UFP/view?usp=sharing" class = "btn btn-dark" role ="button">Get Resume</a></p>
                 
 
                 </div>
